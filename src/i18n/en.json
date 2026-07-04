@@ -31,6 +31,10 @@
     "placeholder": "Search articles, recipes, foods...",
     "resultsHint": "Results will appear here as you type — coming soon."
   },
+  "settings": {
+    "title": "Settings",
+    "language": "Language"
+  },
   "common": {
     "book": "Book a consultation",
     "cancel": "Cancel",

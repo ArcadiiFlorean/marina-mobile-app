@@ -31,6 +31,10 @@
     "placeholder": "Caută articole, rețete, alimente...",
     "resultsHint": "Rezultatele vor apărea aici pe măsură ce cauți — în curând."
   },
+  "settings": {
+    "title": "Setări",
+    "language": "Limbă"
+  },
   "common": {
     "book": "Programează consultație",
     "cancel": "Anulează",
