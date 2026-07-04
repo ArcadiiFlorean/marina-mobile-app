@@ -74,6 +74,61 @@
       "pickDate": "Pick birth date",
       "ageLabel": "Baby's age",
       "premature": "Born prematurely"
+    },
+    "gender": {
+      "title": "Is it a girl or a boy?",
+      "subtitle": "Helps us personalize messages. You can skip this.",
+      "girl": "Girl",
+      "boy": "Boy",
+      "other": "Prefer not to say"
+    },
+    "allergies": {
+      "title": "Any known allergies?",
+      "subtitle": "Tick what you know. We'll highlight allergens in recipes.",
+      "milk": "Milk",
+      "egg": "Egg",
+      "peanut": "Peanut",
+      "treenut": "Tree nuts",
+      "gluten": "Gluten",
+      "soy": "Soy",
+      "fish": "Fish",
+      "sesame": "Sesame",
+      "eczema": "Has eczema",
+      "eczemaHint": "Relevant for introducing allergens.",
+      "optional": "You can skip this step if you're not sure."
+    },
+    "solids": {
+      "title": "Have they started solids?",
+      "subtitle": "Helps us show you the right content.",
+      "yes": "Yes, started",
+      "no": "Not yet",
+      "methodTitle": "Which method do you prefer?",
+      "blw": "Baby-led weaning (BLW)",
+      "blwDesc": "Baby self-feeds soft pieces.",
+      "spoon": "Spoon feeding",
+      "spoonDesc": "Purees offered by you.",
+      "both": "Both",
+      "bothDesc": "Mix of purees and pieces."
+    },
+    "confirm": {
+      "title": "Is this correct?",
+      "subtitle": "Check the profile. You can edit anything.",
+      "name": "Name",
+      "age": "Age",
+      "gender": "Gender",
+      "feeding": "Solids",
+      "allergies": "Allergies",
+      "premature": "premature",
+      "notStarted": "Not started yet",
+      "confirm": "Confirm and continue",
+      "edit": "Edit"
+    },
+    
+    "personalizing": {
+      "step1": "Setting up your experience...",
+      "step2": "Personalizing advice for {{name}}...",
+      "step3": "Done! Everything's ready.",
+      "baby": "baby"
     }
   },
   "common": {

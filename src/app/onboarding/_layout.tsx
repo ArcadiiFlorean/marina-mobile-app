@@ -19,6 +19,11 @@ export default function OnboardingLayout() {
       <Stack.Screen name="focus" />
       <Stack.Screen name="baby-name" />
       <Stack.Screen name="baby-birthdate" />
+      <Stack.Screen name="baby-gender" />
+      <Stack.Screen name="baby-allergies" />
+      <Stack.Screen name="solids-method" />
+      <Stack.Screen name="confirm" />
+      <Stack.Screen name="personalizing" />
     </Stack>
   );
 }

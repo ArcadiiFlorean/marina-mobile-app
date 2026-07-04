@@ -74,6 +74,60 @@
       "pickDate": "Alege data nașterii",
       "ageLabel": "Vârsta bebelușului",
       "premature": "S-a născut prematur"
+    },
+    "gender": {
+      "title": "Este fetiță sau băiețel?",
+      "subtitle": "Ne ajută să personalizăm mesajele. Poți sări peste.",
+      "girl": "Fetiță",
+      "boy": "Băiețel",
+      "other": "Prefer să nu spun"
+    },
+    "allergies": {
+      "title": "Are alergii cunoscute?",
+      "subtitle": "Bifează ce știi. Vom evidenția alergenii în rețete.",
+      "milk": "Lapte",
+      "egg": "Ou",
+      "peanut": "Arahide",
+      "treenut": "Nuci",
+      "gluten": "Gluten",
+      "soy": "Soia",
+      "fish": "Pește",
+      "sesame": "Susan",
+      "eczema": "Are eczemă",
+      "eczemaHint": "Relevant pentru introducerea alergenilor.",
+      "optional": "Poți sări peste acest pas dacă nu ești sigură."
+    },
+    "solids": {
+      "title": "A început diversificarea?",
+      "subtitle": "Ne ajută să-ți arătăm conținutul potrivit.",
+      "yes": "Da, a început",
+      "no": "Nu încă",
+      "methodTitle": "Ce metodă preferi?",
+      "blw": "Autodiversificare (BLW)",
+      "blwDesc": "Bebelușul mănâncă singur, bucăți moi.",
+      "spoon": "Cu lingurița",
+      "spoonDesc": "Piureuri oferite de tine.",
+      "both": "Ambele",
+      "bothDesc": "Combini piureuri și bucăți."
+    },
+    "confirm": {
+      "title": "E corect?",
+      "subtitle": "Verifică profilul. Poți modifica orice.",
+      "name": "Nume",
+      "age": "Vârstă",
+      "gender": "Gen",
+      "feeding": "Diversificare",
+      "allergies": "Alergii",
+      "premature": "prematur",
+      "notStarted": "Nu a început încă",
+      "confirm": "Confirmă și continuă",
+      "edit": "Modifică"
+    },
+    "personalizing": {
+      "step1": "Îți pregătim experiența...",
+      "step2": "Personalizăm sfaturile pentru {{name}}...",
+      "step3": "Gata! Totul e pregătit.",
+      "baby": "bebeluș"
     }
   },
   "common": {
