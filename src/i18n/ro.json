@@ -35,6 +35,34 @@
     "title": "Setări",
     "language": "Limbă"
   },
+  "onboarding": {
+    "welcome": {
+      "title": "Bine ai venit!",
+      "role": "Marina Cociug · Consultant IBCLC",
+      "message": "Te însoțesc pas cu pas prin alăptare, diversificare și înțărcare — cu răspunsuri clare, în limba ta.",
+      "start": "Începe",
+      "slogan": "Mame citite = mame liniștite"
+    },
+    "login": {
+      "title": "Hai să începem",
+      "subtitle": "Creează-ți contul ca să-ți salvăm profilul și progresul.",
+      "certified": "Certificată IBCLC",
+      "google": "Continuă cu Google",
+      "apple": "Continuă cu Apple",
+      "email": "Continuă cu email",
+      "privacy": "Îți respectăm datele. Nu împărtășim informații fără acordul tău."
+    },
+    "focus": {
+      "title": "Unde ai nevoie de ajutor?",
+      "subtitle": "Alege ce te preocupă acum. Poți schimba oricând mai târziu.",
+      "breastfeeding": "Alăptare",
+      "solids": "Diversificare",
+      "weaning": "Înțărcare",
+      "allergens": "Alergeni",
+      "firstAid": "Sufocare / primul ajutor",
+      "browsing": "Doar mă uit"
+    }
+  },
   "common": {
     "book": "Programează consultație",
     "cancel": "Anulează",

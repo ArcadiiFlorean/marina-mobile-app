@@ -35,6 +35,34 @@
     "title": "Settings",
     "language": "Language"
   },
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome!",
+      "role": "Marina Cociug · IBCLC Consultant",
+      "message": "I'll guide you step by step through breastfeeding, solids and weaning — with clear answers, in your language.",
+      "start": "Get started",
+      "slogan": "Informed mothers = calm mothers"
+    },
+    "login": {
+      "title": "Let's get started",
+      "subtitle": "Create your account so we can save your profile and progress.",
+      "certified": "IBCLC Certified",
+      "google": "Continue with Google",
+      "apple": "Continue with Apple",
+      "email": "Continue with email",
+      "privacy": "We respect your data. We never share your information without consent."
+    },
+    "focus": {
+      "title": "Where do you need help?",
+      "subtitle": "Pick what matters to you now. You can change this anytime.",
+      "breastfeeding": "Breastfeeding",
+      "solids": "Solids",
+      "weaning": "Weaning",
+      "allergens": "Allergens",
+      "firstAid": "Choking / first aid",
+      "browsing": "Just browsing"
+    }
+  },
   "common": {
     "book": "Book a consultation",
     "cancel": "Cancel",
