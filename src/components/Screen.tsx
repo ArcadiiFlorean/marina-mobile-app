@@ -34,9 +34,9 @@ export function Screen({
   // insets = spațiile "sigure" (sus: status bar; jos: bara de gesturi).
   const insets = useSafeAreaInsets();
 
-  // Padding-ul comun tuturor ecranelor.
+  // Padding-ul comun tuturor ecranelor (același spațiu de sus peste tot).
   const contentStyle: ViewStyle = {
-    paddingTop: insets.top + spacing.md, // sub status bar + puțin aer
+    paddingTop: insets.top + spacing.lg, // sub status bar + aer consistent
     paddingHorizontal: padded ? spacing.xl : 0,
     paddingBottom: spacing.xl,
   };
