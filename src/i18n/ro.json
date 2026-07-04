@@ -61,6 +61,12 @@
       "allergens": "Alergeni",
       "firstAid": "Sufocare / primul ajutor",
       "browsing": "Doar mă uit"
+    },
+    "babyName": {
+      "title": "Cum îl cheamă pe bebeluș?",
+      "subtitle": "Vom personaliza aplicația cu numele lui.",
+      "label": "Numele bebelușului",
+      "placeholder": "Ex. Alexandra"
     }
   },
   "common": {

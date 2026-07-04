@@ -61,6 +61,12 @@
       "allergens": "Allergens",
       "firstAid": "Choking / first aid",
       "browsing": "Just browsing"
+    },
+    "babyName": {
+      "title": "What's your baby's name?",
+      "subtitle": "We'll personalize the app with their name.",
+      "label": "Baby's name",
+      "placeholder": "E.g. Alexandra"
     }
   },
   "common": {
