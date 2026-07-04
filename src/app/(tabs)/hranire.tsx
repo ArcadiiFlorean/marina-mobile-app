@@ -1,16 +1,19 @@
 // src/app/(tabs)/hranire.tsx
-// TAB HRĂNIRE — alimente + rețete (Sprint 3).
+// TAB HRĂNIRE — texte din traduceri (se schimbă cu limba).
 
+import { useTranslation } from "react-i18next";
 import { Screen } from "@/components/Screen";
 import { Header } from "@/components/Header";
 import { ThemedText } from "@/components/ThemedText";
 
 export default function Hranire() {
+  const { t } = useTranslation();
+
   return (
     <Screen>
-      <Header title="Hrănire" subtitle="Alimente și rețete" />
+      <Header title={t("feeding.title")} subtitle={t("feeding.subtitle")} />
       <ThemedText variant="body" color="warmGray">
-        Conținutul filei Hrănire va apărea aici — în curând.
+        {t("feeding.comingSoon")}
       </ThemedText>
     </Screen>
   );

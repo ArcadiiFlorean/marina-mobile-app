@@ -1,12 +1,12 @@
 // src/app/(tabs)/_layout.tsx
 // -----------------------------------------------------------------------------
 // BARA DE NAVIGAȚIE DE JOS — 5 tab-uri, în brandul Marinei.
-// Fiecare tab are: un titlu (RO) și o iconiță vectorială (lucide, nu emoji).
-// Culorile active/inactive vin din tema Marinei.
+// Titlurile vin acum din traduceri (t("tabs...")), deci se schimbă cu limba.
 // -----------------------------------------------------------------------------
 
 import { colors, fonts } from "@/theme";
 import { Tabs } from "expo-router";
+import { useTranslation } from "react-i18next";
 import {
   BookOpen,
   House,
@@ -16,22 +16,25 @@ import {
 } from "lucide-react-native";
 
 export default function TabsLayout() {
+  // t = funcția de traducere; caută textul în limba activă.
+  const { t } = useTranslation();
+
   return (
     <Tabs
       screenOptions={{
-        headerShown: false, // fără header default; ne facem propriul header mai târziu
-        tabBarActiveTintColor: colors.dustyRose, // tab-ul selectat — accentul Marinei
-        tabBarInactiveTintColor: colors.warmGray, // tab-urile neselectate — gri cald
+        headerShown: false,
+        tabBarActiveTintColor: colors.dustyRose,
+        tabBarInactiveTintColor: colors.warmGray,
         tabBarStyle: {
           backgroundColor: colors.white,
           borderTopColor: colors.beige,
           borderTopWidth: 1,
-          height: 88, // înălțime confortabilă (include zona de jos a telefonului)
+          height: 88,
           paddingTop: 8,
-          paddingBottom: 28, // spațiu pt. bara de gesturi de jos
+          paddingBottom: 28,
         },
         tabBarLabelStyle: {
-          fontFamily: fonts.label, // Poppins Medium
+          fontFamily: fonts.label,
           fontSize: 11,
         },
       }}
@@ -39,14 +42,14 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Acasă",
+          title: t("tabs.home"),
           tabBarIcon: ({ color, size }) => <House color={color} size={size} />,
         }}
       />
       <Tabs.Screen
         name="hranire"
         options={{
-          title: "Hrănire",
+          title: t("tabs.feeding"),
           tabBarIcon: ({ color, size }) => (
             <Utensils color={color} size={size} />
           ),
@@ -55,7 +58,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="ghiduri"
         options={{
-          title: "Ghiduri",
+          title: t("tabs.guides"),
           tabBarIcon: ({ color, size }) => (
             <BookOpen color={color} size={size} />
           ),
@@ -64,7 +67,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="intreaba"
         options={{
-          title: "Întreabă Marina",
+          title: t("tabs.ask"),
           tabBarIcon: ({ color, size }) => (
             <MessageCircleHeart color={color} size={size} />
           ),
@@ -73,7 +76,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="cauta"
         options={{
-          title: "Caută",
+          title: t("tabs.search"),
           tabBarIcon: ({ color, size }) => <Search color={color} size={size} />,
         }}
       />

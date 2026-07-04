@@ -1,0 +1,40 @@
+{
+  "tabs": {
+    "home": "Home",
+    "feeding": "Feeding",
+    "guides": "Guides",
+    "ask": "Ask Marina",
+    "search": "Search"
+  },
+  "home": {
+    "greeting": "Welcome!",
+    "subtitle": "Lactation consultant · IBCLC"
+  },
+  "feeding": {
+    "title": "Feeding",
+    "subtitle": "Foods and recipes",
+    "comingSoon": "The Feeding tab content will appear here — coming soon."
+  },
+  "guides": {
+    "title": "Guides",
+    "subtitle": "Breastfeeding · Weaning · Solids",
+    "comingSoon": "Articles will appear here — coming soon."
+  },
+  "ask": {
+    "title": "Ask Marina",
+    "subtitle": "Chat, consultations and community",
+    "comingSoon": "Here you'll be able to chat with Marina and book a consultation — coming soon."
+  },
+  "search": {
+    "title": "Search",
+    "subtitle": "Quickly find anything in the app",
+    "placeholder": "Search articles, recipes, foods...",
+    "resultsHint": "Results will appear here as you type — coming soon."
+  },
+  "common": {
+    "book": "Book a consultation",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "language": "Language"
+  }
+}

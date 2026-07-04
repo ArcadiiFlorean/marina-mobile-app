@@ -1,0 +1,40 @@
+{
+  "tabs": {
+    "home": "Acasă",
+    "feeding": "Hrănire",
+    "guides": "Ghiduri",
+    "ask": "Întreabă Marina",
+    "search": "Caută"
+  },
+  "home": {
+    "greeting": "Bine ai venit!",
+    "subtitle": "Consultant în alăptare · IBCLC"
+  },
+  "feeding": {
+    "title": "Hrănire",
+    "subtitle": "Alimente și rețete",
+    "comingSoon": "Conținutul filei Hrănire va apărea aici — în curând."
+  },
+  "guides": {
+    "title": "Ghiduri",
+    "subtitle": "Alăptare · Diversificare · Înțărcare",
+    "comingSoon": "Articolele vor apărea aici — în curând."
+  },
+  "ask": {
+    "title": "Întreabă Marina",
+    "subtitle": "Chat, consultații și comunitate",
+    "comingSoon": "Aici vei putea vorbi cu Marina și programa o consultație — în curând."
+  },
+  "search": {
+    "title": "Caută",
+    "subtitle": "Găsește rapid orice din aplicație",
+    "placeholder": "Caută articole, rețete, alimente...",
+    "resultsHint": "Rezultatele vor apărea aici pe măsură ce cauți — în curând."
+  },
+  "common": {
+    "book": "Programează consultație",
+    "cancel": "Anulează",
+    "continue": "Continuă",
+    "language": "Limbă"
+  }
+}

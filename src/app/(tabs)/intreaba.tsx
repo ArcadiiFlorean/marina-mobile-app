@@ -1,20 +1,19 @@
 // src/app/(tabs)/intreaba.tsx
-// TAB ÎNTREABĂ MARINA — chat AI + consultații + comunitate (Sprint 5).
-// Acesta e diferențiatorul față de Solid Starts.
+// TAB ÎNTREABĂ MARINA — texte din traduceri.
 
-import { Header } from "@/components/Header";
+import { useTranslation } from "react-i18next";
 import { Screen } from "@/components/Screen";
+import { Header } from "@/components/Header";
 import { ThemedText } from "@/components/ThemedText";
 
 export default function Intreaba() {
+  const { t } = useTranslation();
+
   return (
     <Screen>
-      <Header
-        title="Întreabă Marina"
-        subtitle="Chat, consultații și comunitate"
-      />
+      <Header title={t("ask.title")} subtitle={t("ask.subtitle")} />
       <ThemedText variant="body" color="warmGray">
-        Aici vei putea vorbi cu Marina și programa o consultație — în curând.
+        {t("ask.comingSoon")}
       </ThemedText>
     </Screen>
   );

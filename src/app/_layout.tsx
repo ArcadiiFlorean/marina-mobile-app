@@ -7,21 +7,21 @@
 //      ca textul să NU apară întâi cu fontul de sistem și apoi să "sară".
 // -----------------------------------------------------------------------------
 
-import { useEffect } from "react";
+import "@/i18n"; // pornește motorul de traduceri (i18n) la lansarea aplicației
+import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import { useFonts } from "expo-font";
-
+import { useEffect } from "react";
 // --- Fonturile brandului (exact cheile folosite în src/theme/typography.ts) ---
-import {
-  PlayfairDisplay_600SemiBold,
-  PlayfairDisplay_700Bold,
-} from "@expo-google-fonts/playfair-display";
 import {
   Nunito_400Regular,
   Nunito_600SemiBold,
   Nunito_700Bold,
 } from "@expo-google-fonts/nunito";
+import {
+  PlayfairDisplay_600SemiBold,
+  PlayfairDisplay_700Bold,
+} from "@expo-google-fonts/playfair-display";
 import {
   Poppins_500Medium,
   Poppins_600SemiBold,
