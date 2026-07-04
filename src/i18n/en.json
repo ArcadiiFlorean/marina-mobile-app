@@ -67,6 +67,13 @@
       "subtitle": "We'll personalize the app with their name.",
       "label": "Baby's name",
       "placeholder": "E.g. Alexandra"
+    },
+    "birthdate": {
+      "title": "When were they born?",
+      "subtitle": "We'll tailor advice to their exact age.",
+      "pickDate": "Pick birth date",
+      "ageLabel": "Baby's age",
+      "premature": "Born prematurely"
     }
   },
   "common": {

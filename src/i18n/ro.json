@@ -67,6 +67,13 @@
       "subtitle": "Vom personaliza aplicația cu numele lui.",
       "label": "Numele bebelușului",
       "placeholder": "Ex. Alexandra"
+    },
+    "birthdate": {
+      "title": "Când s-a născut?",
+      "subtitle": "Vom potrivi sfaturile pe vârsta lui exactă.",
+      "pickDate": "Alege data nașterii",
+      "ageLabel": "Vârsta bebelușului",
+      "premature": "S-a născut prematur"
     }
   },
   "common": {
