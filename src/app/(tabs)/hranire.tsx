@@ -1,27 +1,17 @@
 // src/app/(tabs)/hranire.tsx
-// TAB HRĂNIRE — bază de alimente + rețete (se umple în Sprint 3).
+// TAB HRĂNIRE — alimente + rețete (Sprint 3).
 
+import { Screen } from "@/components/Screen";
+import { Header } from "@/components/Header";
 import { ThemedText } from "@/components/ThemedText";
-import { colors, spacing } from "@/theme";
-import { StyleSheet, View } from "react-native";
 
 export default function Hranire() {
   return (
-    <View style={styles.screen}>
-      <ThemedText variant="h1">Hrănire</ThemedText>
+    <Screen>
+      <Header title="Hrănire" subtitle="Alimente și rețete" />
       <ThemedText variant="body" color="warmGray">
-        Alimente și rețete — în curând.
+        Conținutul filei Hrănire va apărea aici — în curând.
       </ThemedText>
-    </View>
+    </Screen>
   );
 }
-
-const styles = StyleSheet.create({
-  screen: {
-    flex: 1,
-    backgroundColor: colors.cream,
-    padding: spacing.xl,
-    paddingTop: spacing.huge,
-    gap: spacing.sm,
-  },
-});
